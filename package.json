@@ -1,0 +1,20 @@
+{
+  "name": "middleware",
+  "version": "1.0.0",
+  "description": "script to filter zoom data",
+  "author": "Barrionuevo Diego Agustin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "cripto": "^1.1.4",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1"
+  }
+}
